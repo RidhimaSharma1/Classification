@@ -23,7 +23,7 @@ In text classification script, binary class dataset has been used where label is
 This classification model is build using BERT transformation model. BERT is a pre-trained transformer model developed by Google.
 Accuracy of this model is 87%, this can be increased by increasing number of epochs
 (Note:- increase in no. of epochs can also lead to overfitting. Hence it is important to iterate training data for right number of epochs, 
-therefore giving a large number as epochs and using "early stop" technique is a common practise to avoid overfitting. Model stop training 
-when the error rate of validation data is minimum.)
+therefore giving a large number as epochs and using "early stop" technique is a common practise to avoid overfitting. 
+In this technique, model stop training when the error rate of validation data is minimum.)
 The major feature used in this model is "Link". Link has been used as the feature because the link is consist of the "Topic" and "Host".
 Another feature that can be considered for the classification is "Source", this can improve the performence by including more context.

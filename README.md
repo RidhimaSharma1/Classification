@@ -2,7 +2,7 @@
 **HR analytics uses employee data to improve talent management and business outcome.**
 
 In this python script, Analytics Vidhya Jobathon dataset has been used to predict the attrition of employees.
-In this script we have used classification technique to predict if an employee is likely to leave the company.
+In this script we have used classification technique to predict if an employee is likely to leave the company.<br/>
 The features which has been considered in this model are:<br/>
 a) Date of Joining<br/>
 b) City<br/>
@@ -10,7 +10,7 @@ c) Education Level<br/>
 d) Gender<br/>
 e) Quarterly Rating<br/>
 f) Total Business Value<br/>
-g) Designation (Joining and current)<br/><br/>
+g) Designation (Joining and current)<br/>
 h) Age<br/>
 i) Salary<br/>
 And date of last working day has been used as the target column (which has been converted into Target of 0 and 1, 

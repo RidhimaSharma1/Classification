@@ -1,5 +1,5 @@
 # Classification
-**HR analytics uses employee data to improve talent management and business outcome.**
+**1. HR analytics uses employee data to improve talent management and business outcome.**
 
 In this python script, Analytics Vidhya Jobathon dataset has been used to predict the attrition of employees.
 In this script we have used classification technique to predict if an employee is likely to leave the company.<br/>
@@ -17,7 +17,7 @@ And date of last working day has been used as the target column (which has been 
 where 0 means person has served the last working day and 1 means employee is still part of the organization)
 
 
-**Text Classification to classify Actual patient**
+**2. Text Classification to classify Actual patient**
 
 In text classification script, binary class dataset has been used where label is 1 for actual patient and 0 fake patient.<br/>
 This classification model is build using BERT transformation model. BERT is a pre-trained transformer model developed by Google.<br/>

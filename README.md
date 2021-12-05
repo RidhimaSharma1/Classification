@@ -35,5 +35,5 @@ Another feature that can be considered for the classification is "Source", this 
 
 In this classification problem, kaggles titanic dataset has been used. The target variable has categories 0 "Not Survived" and 1 "Survived".<br/>
 To create this classification data pre processing was required as Linear model does't support categorical or qualitative parameters.<br/> The features which are
-considered in this model are - <br/> a) "Age"<br/> b) "Fare"<br/> c) "Pclass - Ticket class"<br/> d) "SibSp - siblings / spouses aboard" <br/> e) "Parch - parents / children aboard" <br/> f)"Sex_male"<br/> g) 'Embarked_Q'<br/> h) 'Embarked_S' <br/> i) "Fare"<br/>
+considered in this model are - <br/> a) "Age"<br/> b) "Fare"<br/> c) "Pclass - Ticket class"<br/> d) "SibSp - siblings / spouses aboard" <br/> e) "Parch - parents / children aboard" <br/> f) "Sex - Gender of Passenger"<br/> g) "Embarked - Port of Embarkation"<br/> h) "Fare"<br/>
 To train this model multiple models has been tried including SVM, Naive Bayes, Logistic Regression and stacking of Random forest with other models. Logistic regression has performed the best with 81% accuracy, hence LR has been used to predict the unseen test data.

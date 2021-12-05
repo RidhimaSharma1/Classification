@@ -19,11 +19,11 @@ where 0 means person has served the last working day and 1 means employee is sti
 
 **Text Classification to classify Actual patient**
 
-In text classification script, binary class dataset has been used where label is 1 for Sincere patient and 0 InSincere patient.
-This classification model is build using BERT transformation model. BERT is a pre-trained transformer model developed by Google.
+In text classification script, binary class dataset has been used where label is 1 for actual patient and 0 fake patient.<br/>
+This classification model is build using BERT transformation model. BERT is a pre-trained transformer model developed by Google.<br/>
 Accuracy of this model is 87%, this can be increased by increasing number of epochs<br/>
 (Note:- increase in no. of epochs can also lead to overfitting. Hence it is important to iterate training data for right number of epochs, 
 therefore giving a large number as epochs and using "early stop" technique is a common practise to avoid overfitting. 
 In this technique, model stop training when the error rate of validation data is minimum.)<br/>
-The major feature used in this model is "Link". Link has been used as the feature because the link is consist of the "Topic" and "Host".
+The major feature used in this model is "Link" as it cover text in other features of the dataset including "Topic" and "Host".
 Another feature that can be considered for the classification is "Source", this can improve the performence by including more context.

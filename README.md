@@ -14,7 +14,7 @@ g) Designation (Joining and current)<br/>
 h) Age<br/>
 i) Salary<br/>
 And date of last working day has been used as the target column (which has been converted into Target of 0 and 1, 
-where 0 means person has served the last working day and 1 means employee is still part of the organization)
+where 0 means person has served the last working day and 1 means employee is still part of the organization).
 
 
 

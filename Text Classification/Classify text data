@@ -1,1 +1,23 @@
+**Text Classification problem to assign a category to text data**
 
+In text classification script, binary class dataset has been used where label is 1 for actual patient and 0 fake patient.
+This classification model is build using BERT transformation model. BERT is a pre-trained transformer model developed by Google.
+
+Steps followed:-
+1. Load the data
+2. Look at the data identify the context of the classes
+3. Setup tensorflow 
+4. Create tf.data.Datasets for Training and Evaluation
+5. Download a pre-trained BERT Model
+6. Create preprocess text data and create token
+7. Create input pipeline
+8. Create classification head and fine tune BERT for text classification
+9. Evaluate text classification model
+10. Predict the class using the trained model
+
+Accuracy of this model is 87%, this can be increased by increasing number of epochs
+(Note:- increase in no. of epochs can also lead to overfitting. Hence it is important to iterate training data for right number of epochs, 
+therefore giving a large number as epochs and using "early stop" technique is a common practise to avoid overfitting. 
+In this technique, model stop training when the error rate of validation data is minimum.)
+The major feature used in this model is "Link" as it cover text in other features of the dataset including "Topic" and "Host".
+Another feature that can be considered for the classification is "Source", this can improve the performence by including more context.
